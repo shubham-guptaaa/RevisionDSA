@@ -25,7 +25,7 @@ class UniquePathII{
         // return helper(arr,i-1,j-1,dp);
         
         //Concept of Tabulation
-        dp[0][0] = 0;
+        dp[0][0] = 1;
         for(int i = 1; i<m; i++){
             dp[i][0] = (arr[i][0] == 1) ? 0 : dp[i-1][0]; 
         }
