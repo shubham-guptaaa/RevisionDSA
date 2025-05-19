@@ -1,7 +1,7 @@
 package Graph;
 import java.util.*;
 public class dfsTraversal {
-    public static void buildTree(ArrayList<ArrayList<Integer>> adj, Scanner sc){
+    public static void buildGraph(ArrayList<ArrayList<Integer>> adj, Scanner sc){
         System.out.println("Enter the number of vertex/Node: ");
         int ver = sc.nextInt();
         for(int i =0; i<=ver; i++){
@@ -30,7 +30,7 @@ public class dfsTraversal {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
-        buildTree(adj, sc);
+        buildGraph(adj, sc);
         ArrayList<Integer> ans = new ArrayList<>(); 
         boolean[] visi = new boolean[adj.size()];
         dfs(adj.size()-1, adj, ans, visi);
