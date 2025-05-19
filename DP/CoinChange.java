@@ -31,5 +31,6 @@ class CoinChange {
         }
         int amount = sc.nextInt();
         System.out.println(knapsake(coins, amount));
+        sc.close();
     }
 }
