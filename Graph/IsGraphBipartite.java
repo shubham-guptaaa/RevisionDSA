@@ -1,4 +1,3 @@
-package Graph;
 import java.util.*;
 public class IsGraphBipartite {
     public static boolean dfs(int start, ArrayList<ArrayList<Integer>> adj, int[] visi, int currColor){

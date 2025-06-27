@@ -1,4 +1,3 @@
-package Graph;
 import java.util.*; 
 public class bfsIsCycle {
     public static boolean bfs(int start, List<List<Integer>> adj, boolean[] visi){

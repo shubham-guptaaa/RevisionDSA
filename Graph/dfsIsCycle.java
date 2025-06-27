@@ -1,4 +1,3 @@
-package Graph;
 import java.util.*;
 class dfsIsCycle{
     public static boolean dfs(int start, int parent, ArrayList<ArrayList<Integer>> adj, boolean[] visi){

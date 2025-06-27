@@ -1,4 +1,3 @@
-package Graph;
 import java.util.*;
 class WordLadder{
     public static List<String> getNeg(String word, HashSet<String> set){

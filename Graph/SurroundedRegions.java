@@ -1,5 +1,3 @@
-package Graph;
-
 public class SurroundedRegions {
     public static void dfs(int r, int c, int[][] visi, char[][] board) {
         int n = board.length;

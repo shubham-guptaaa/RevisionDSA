@@ -1,7 +1,5 @@
 // Same as the Surrounded Regions (DFS)
 
-package Graph;
-
 public class NumberofEnclaves {
     public static void dfs(int r, int c, int[][] visi, int[][] grid){
         int n = grid.length;

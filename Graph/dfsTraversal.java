@@ -1,4 +1,3 @@
-package Graph;
 import java.util.*;
 public class dfsTraversal {
     public static void buildGraph(ArrayList<ArrayList<Integer>> adj, Scanner sc){
