@@ -1,4 +1,3 @@
-package Arrays;
 import java.util.*;
 public class KadaneAlgorithm {
     public static int maxSumSubArray(int[] arr){
