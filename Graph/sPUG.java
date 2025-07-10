@@ -1,13 +1,13 @@
 import java.util.*;
-class Pair{
-    int node;
-    int weight;
-    Pair(int node, int weight){
-        this.node = node;
-        this.weight = weight;
-    }
-}
 public class sPUG {
+    static class Pair{
+        int node;
+        int weight;
+        Pair(int node, int weight){
+            this.node = node;
+            this.weight = weight;
+        }
+    }
     public static int[] shortestPath(int V, int E, int[][] edges){
         ArrayList<ArrayList<Pair>> adj = new ArrayList<>();
         for(int i = 0; i<V; i++){
