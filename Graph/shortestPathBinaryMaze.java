@@ -1,5 +1,7 @@
 import java.util.*;
-class Pair{
+
+public class shortestPathBinaryMaze {
+    static class Pair{
     int i;
     int j;
     int w;
@@ -9,7 +11,6 @@ class Pair{
         this.w = w;
     }
 }
-public class shortestPathBinaryMaze {
     public static int shortestPathBinaryMatrix(int[][] grid){
         PriorityQueue<Pair> pq = new PriorityQueue<>((a,b) -> a.w - b.w);
         int n = grid.length;
