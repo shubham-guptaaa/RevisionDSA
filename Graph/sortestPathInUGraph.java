@@ -1,13 +1,13 @@
 import java.util.*;
-class Pair{
-    int node;
-    int weight;
-    Pair(int node, int weight){
-        this.node = node;
-        this.weight = weight;
-    }
-}
 public class sortestPathInUGraph {
+    static class Pair{
+        int node;
+        int weight;
+        Pair(int node, int weight){
+            this.node = node;
+            this.weight = weight;
+        }
+    }
     public static int[] shortestPath(ArrayList<ArrayList<Integer>> adj, int src){
         int V = adj.size();
         int[] result = new int[V];
